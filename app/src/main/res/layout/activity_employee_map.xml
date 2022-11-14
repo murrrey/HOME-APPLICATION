@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/app"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".users.employees.EmployeeMapActivity" >
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:paddingEnd="15dp"
+            tools:ignore="RtlSymmetry">
+            <Button
+                android:id="@+id/logout"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:layout_marginStart="20dp"
+                android:text="@string/logout"
+                android:textColor="@color/white"
+                android:background="@drawable/red_button"
+                tools:ignore="RtlSymmetry"
+                android:layout_marginEnd="20dp"
+                android:paddingStart="20dp" />
+
+            <Button
+                android:id="@+id/settings"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:text="@string/profile"
+                android:textColor="@color/black"
+                android:background="@drawable/white_button" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="20"
+                map:cardCornerRadius="40dp">
+
+                <TextView
+                    android:id="@+id/notification_id"
+                    style="@style/TextAppearance.MaterialComponents.Headline4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:background="@color/profile_placeholder_background"
+                    android:text="@string/_0"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:paddingStart="5dp"
+            android:text="@string/offline"
+            android:id="@+id/workingSwitch"
+            android:background="@drawable/offline_button"/>
+
+    </LinearLayout>
+
+</FrameLayout>

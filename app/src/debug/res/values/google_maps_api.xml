@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=AE:DB:37:12:B2:0A:5C:4D:EA:15:D0:D2:13:3C:CB:42:7A:1E:36:C1%3Bcom.stano.homeapp
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.stano.homeapp
+
+    SHA-1 certificate fingerprint:
+    AE:DB:37:12:B2:0A:5C:4D:EA:15:D0:D2:13:3C:CB:42:7A:1E:36:C1
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCEnudBAT_RgXWAal2-UN5pKAtKG_7WRP8</string>
+</resources>

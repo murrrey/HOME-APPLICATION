@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "979455233850",
+    "project_id": "home-application-7ff58",
+    "storage_bucket": "home-application-7ff58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979455233850:android:9adee8c01de44c18dc0a03",
+        "android_client_info": {
+          "package_name": "com.stano.homeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979455233850-snj1iajchl04hfpobhojpe68rg5u1rtm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2MCpOYgp_Hg-JMsIzuMzvlLO_k0IPIGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979455233850-snj1iajchl04hfpobhojpe68rg5u1rtm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
